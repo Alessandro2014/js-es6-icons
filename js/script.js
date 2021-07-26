@@ -4,7 +4,7 @@ icons.forEach((item) => {
     iconsTemplate += `
     <div class="col-sm-offset-1 col-sm-2">
         <div class="card txt-center-sm">
-            <i class="${item.family} ${item.prefix}${item.name}"></i>
+            <i class="${item.family} ${item.prefix}${item.name} ${item.type}"></i>
             <h5>${item.name.toUpperCase()}</h5>
         </div>
     </div>
