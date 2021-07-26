@@ -1,0 +1,20 @@
+h1 {
+    color: #29B1DD;
+    margin: 10px 0 0 10px;
+}
+
+nav {
+    background-color: #29B1DD;
+    text-align: center;
+    line-height: 50px;
+}
+
+h3 {
+    color: white;
+    display: inline;
+}
+
+section {
+    background-color: #DDDDDD;
+    height: calc(100vh - 88.33px);
+}
