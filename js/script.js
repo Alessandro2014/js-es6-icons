@@ -1,11 +1,13 @@
+
 // CICLO PER ITERARE NELL'ARRAY DI OGGETTI 
 const printIcons = (icons, element) => {
     iconsTemplate = '';
     icons.forEach((item, index) => {
-        const offset = index % 5 === 0 ? 'col-md-offset-1' : '';
+        const offsetMd = index % 5 === 0 ? 'col-md-offset-1' : '';
+
         iconsTemplate += `
-        <div class="col-sm-4 col-md-2  ${offset}">
-            <div class="card txt-center-sm">
+        <div class="col-sm-5 col-md-2  txt-center-xs ${offsetMd}">
+            <div class="card">
                 <i class="${item.family} ${item.prefix}${item.name} ${item.type}"></i>
                 <h5>${item.name.toUpperCase()}</h5>
             </div>

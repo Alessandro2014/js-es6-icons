@@ -16,7 +16,7 @@ h3 {
 
 section {
     background-color: #DDDDDD;
-    height: calc(100vh - 88.33px);
+    min-height: calc(100vh - 88.33px);
 }
 
 .card {
